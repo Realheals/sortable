@@ -75,7 +75,7 @@ bucket_list <- function(
 
   # assert_that(is_header(header))
 
-  assert_that(is_sortable_options(options))
+  #assert_that(is_sortable_options(options))
   if (missing(group_name) || is.null(group_name)) {
     group_name <- increment_bucket_group()
   }
